@@ -1,2 +1,2 @@
 # ProiectWebPage
-FreshDays is a meal planning tool that helps you organize meals and track nutrition. Add meals to a calendar, search recipes based on your dietary needs, and monitor calories and nutrients. Manage ingredients, create shopping lists, and check expiration dates. With personalized meal suggestions, FreshDays makes meal planning simple and healthier.
+FreshDays is a meal planning tool that helps you organize meals and track nutrition. Add meals to a calendar, search recipes based on your dietary needs, and monitor calories and nutrients. Manage ingredients, create shopping lists, and check expiration dates. With personalized meal suggestions, FreshDays makes meal planning simple and healthier.()  
