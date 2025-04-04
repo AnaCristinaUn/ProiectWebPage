@@ -446,15 +446,14 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
-	font-family: sans-serif;
 	color: #333;
 }
 
 .meal-list {
+    font-weight: bold;
 	list-style-type: disc;
 	padding-left: 20px;
 	text-align: left;
-	font-family: sans-serif;
 	color: #333;
 }
 
