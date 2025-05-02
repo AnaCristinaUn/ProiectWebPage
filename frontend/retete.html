@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="retete_style.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <div class="logo-circle"></div>
+      <div class="logo-text">FRESHDAYS</div>
+    </div>
+  <div class="profile"></div>
+  </div>
+
+<div class="search-container">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search real recipes..." oninput="searchRecipe()" />
+  </div>
+</div>
+
+<div class="section">
+  <div class="card">
+    <h2>DAILY RECIPE</h2>
+    <div class="recipe-box" id="dailyRecipe">
+      <p style="text-align:center; color:#999;">Search above to see a real recipe</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>RETETE FAVORITE</h2>
+    <ul id="favoritesList"></ul>
+  </div>
+</div>
+
+<script>
+  async function searchRecipe() {
+    const input = document.getElementById("searchInput").value.trim();
+    const container = document.getElementById("dailyRecipe");
+
+    if (input === "") {
+      container.innerHTML = "<p style='text-align:center; color:#999;'>Search above to see a real recipe</p>";
+      return;
+    }
+
+    try {
+      const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`);
+      const data = await response.json();
+      const meal = data.meals ? data.meals[0] : null;
+
+      if (meal) {
+        container.innerHTML = `
+          <h3 style="text-align:center;">${meal.strMeal}</h3>
+          <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+          <p><strong>Category:</strong> ${meal.strCategory}</p>
+          <p><strong>Ingredients:</strong><br>${getIngredients(meal)}</p>
+          <p><strong>Instructions:</strong><br>${meal.strInstructions}</p>
+          <button onclick="addToFavorites('${meal.strMeal.replace(/'/g, "\\'")}')">❤️ Add to Favorites</button>
+        `;
+      } else {
+        container.innerHTML = "<p style='text-align:center; color:#999;'>No recipe found</p>";
+      }
+    } catch (err) {
+      console.error(err);
+      container.innerHTML = "<p style='text-align:center; color:red;'>Error loading recipe</p>";
+    }
+  }
+
+  function getIngredients(meal) {
+    let ingredients = "";
+    for (let i = 1; i <= 20; i++) {
+      const ingredient = meal[`strIngredient${i}`];
+      const measure = meal[`strMeasure${i}`];
+      if (ingredient && ingredient.trim()) {
+        ingredients += `- ${ingredient} (${measure})<br>`;
+      }
+    }
+    return ingredients;
+  }
+
+  function addToFavorites(name) {
+    const list = document.getElementById("favoritesList");
+
+    const exists = [...list.children].some(li => li.dataset.name === name);
+    if (!exists) {
+      const li = document.createElement("li");
+      li.dataset.name = name;
+
+      const title = document.createElement("span");
+      title.innerText = name;
+      title.onclick = () => fetchAndShowRecipe(name);
+
+      const removeBtn = document.createElement("button");
+      removeBtn.innerText = "🗑️";
+      removeBtn.onclick = (e) => {
+        e.stopPropagation(); // so it doesn’t open the recipe when deleting
+        li.remove();
+      };
+
+      li.appendChild(title);
+      li.appendChild(removeBtn);
+      list.appendChild(li);
+    }
+  }
+
+  async function fetchAndShowRecipe(name) {
+    const container = document.getElementById("dailyRecipe");
+
+    try {	
+      const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`);
+      const data = await response.json();
+      const meal = data.meals ? data.meals[0] : null;
+
+      if (meal) {
+        container.innerHTML = `
+          <h3 style="text-align:center;">${meal.strMeal}</h3>
+          <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+          <p><strong>Category:</strong> ${meal.strCategory}</p>
+          <p><strong>Ingredients:</strong><br>${getIngredients(meal)}</p>
+          <p><strong>Instructions:</strong><br>${meal.strInstructions}</p>
+        `;
+      }
+    } catch (err) {
+      container.innerHTML = "<p style='text-align:center; color:red;'>Couldn't load recipe</p>";
+    }
+  }
+</script>
+
+</body>
+</html>
