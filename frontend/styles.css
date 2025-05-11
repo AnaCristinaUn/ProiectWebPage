@@ -46,6 +46,33 @@ body {
 	font-family: sans-serif;
 }
 
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+	margin-left: auto;
+}
+
+.recipes-button {
+    background-color: #FFAA77;
+    color: #000;
+    border: 2px dashed #FF8D3F;
+    border-radius: 40px;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+}
+
+.recipes-button:hover {
+    background-color: #FF8D3F;
+    color: #000;
+}
+
 .profile {
 	width: 40px;
 	height: 40px;
@@ -474,35 +501,18 @@ body {
 	}
 }
 
-/*buton recipes */
-.header-buttons {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-right: auto; 
+/* Add to styles.css */
+.selected-date {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
 }
 
-.nav-button {
-    background-color: #FFAA77;
-    color: #000;
-    border: 2px dashed #FF8D3F;
-    border-radius: 40px;
-    padding: 0.8rem 2rem;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
+.calendar-dates div {
     cursor: pointer;
-    font-family: sans-serif;
-    transition: all 0.3s ease;
-    margin-left: 1rem;
+    transition: all 0.2s ease;
 }
 
-.nav-button:hover {
-    background-color: #FF8D3F;
-    color: #000;
-}
-
-/* Adjust profile position */
-.profile {
-    margin-left: auto;
+.calendar-dates div:hover {
+    background-color: #f1f1f1;
 }
