@@ -11,7 +11,7 @@ body {
 .form-container {
   background-color: #ffffff;
   border-radius: 16px;
-  width: 360px;
+  width: 380px;
   padding: 35px 30px;
   display: flex;
   flex-direction: column;
@@ -19,8 +19,14 @@ body {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
 }
 
+.logo {
+  font-size: 36px;
+  color: #00AB44;
+  margin-bottom: 15px;
+}
+
 h2 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-size: 24px;
   color: #1f2937;
 }
@@ -64,27 +70,26 @@ button {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #008f3a;
-  transform: translateY(-1px);
 }
 
-.create-link {
+.login-link {
   margin-top: 18px;
   font-size: 14px;
   color: #374151;
   text-align: center;
 }
 
-.create-link a {
+.login-link a {
   color: #00AB44;
   text-decoration: none;
   font-weight: 500;
 }
 
-.create-link a:hover {
+.login-link a:hover {
   text-decoration: underline;
 }

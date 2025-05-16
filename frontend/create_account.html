@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Account</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="create_account_styles.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="logo">
+      <i class="fas fa-user-plus"></i>
+    </div>
+    <h2>Create Your Account</h2>
+    <form id="createAccountForm">
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" id="Email" placeholder="Email" required />
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" placeholder="Password" required />
+      </div>
+      <button type="submit">Sign Up</button>
+      <p class="login-link">Already have an account? <a href="log_in.html">Log in</a></p>
+
+    </form>
+  </div>
+
+<script>
+  document.getElementById('createAccountForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById('Email').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    if (email === '' || password === '') {
+      alert('Please fill in all fields.');
+      return;
+    }
+
+    alert('Account created successfully!');
+    window.location.href = 'page_after_login.html';
+  });
+</script>
+
+
+</body>
+</html>
