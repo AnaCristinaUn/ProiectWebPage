@@ -4,6 +4,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MealPlanner.Models;
 
+public enum MealType
+{
+    Breakfast,
+    Lunch,
+    Dinner
+}
+
 public class Meal
 {
     public int Id { get; set; }
@@ -15,6 +22,9 @@ public class Meal
     [Display(Name = "Date")]
     [DataType(DataType.Date)]
     public DateTime AddedDate { get; set; }
+
+    [Required]
+    public MealType MealType { get; set; }
 
     [Display(Name = "Cooking Time (minutes)")]
     [DisplayFormat(DataFormatString = "{0:N0}", ApplyFormatInEditMode = true)]

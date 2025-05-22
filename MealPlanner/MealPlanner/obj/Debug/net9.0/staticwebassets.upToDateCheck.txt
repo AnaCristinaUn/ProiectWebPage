@@ -50,7 +50,6 @@ D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\bo
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\js\site.js
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 D:\Cursuri\A III S II\IPDP\ProiectWebPage\MealPlanner\MealPlanner\wwwroot\css\create_styles.css
@@ -86,7 +85,6 @@ wwwroot\css\retete_styles.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\script.js
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

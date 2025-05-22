@@ -10,7 +10,7 @@
 <div class="container">
     <div class="content">
         <h1 class="main-title">Delete Meal</h1>
-        <p class="tagline">Confirm deletion</p>
+        
 
         <div class="description">
             <h4>Meal Details</h4>
@@ -22,7 +22,21 @@
             <dt>@Html.DisplayNameFor(model => model.AddedDate)</dt>
             <dd>@Html.DisplayFor(model => model.AddedDate)</dd>
             <dt>@Html.DisplayNameFor(model => model.Ingredients)</dt>
-            <dd>@Html.DisplayFor(model => model.Ingredients)</dd>
+            <dd>
+                @if (Model.Ingredients != null && Model.Ingredients.Any())
+                {
+                    <ul>
+                        @foreach (var ingredient in Model.Ingredients)
+                        {
+                            <li>@ingredient.Name</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>No ingredients available.</p>
+                }
+            </dd>
             <dt>@Html.DisplayNameFor(model => model.CookingTime)</dt>
             <dd>@Html.DisplayFor(model => model.CookingTime)</dd>
             <dt>@Html.DisplayNameFor(model => model.Rating)</dt>
@@ -31,8 +45,8 @@
 
         <form asp-action="Delete">
             <input type="hidden" asp-for="Id" />
-            <input type="submit" value="Delete" />
-            <a asp-action="Index" class="button-link">Back to List</a>
+            <input type="submit" value="Delete" class="cta-button" />
+            <a asp-action="Index" class="button-link" style="background-color: transparent; border-style: solid;">Back to List</a>
         </form>
     </div>
 </div>

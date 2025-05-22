@@ -9,10 +9,8 @@ using MealPlanner.Data;
 using MealPlanner.Models;
 using Microsoft.AspNetCore.Authorization;
 
-
 namespace MealPlanner.Controllers
 {
-    
     public class MealsController : Controller
     {
         private readonly MealPlannerContext _context;
@@ -23,16 +21,16 @@ namespace MealPlanner.Controllers
         }
 
         // GET: Meals
-        public async Task<IActionResult> Index(string mealIngredients,  string searchString)
+        public async Task<IActionResult> Index(string mealIngredients, string searchString)
         {
             if (_context.Meal == null)
             {
                 return Problem("Entity set 'MealPlannerContext.Meal'  is null.");
             }
 
-            // Use LINQ to get list of genres.
             var mealsQuery = _context.Meal
                 .Include(m => m.Ingredients)
+                .OrderByDescending(m => m.AddedDate)
                 .AsQueryable();
 
             if (!string.IsNullOrEmpty(searchString))
@@ -45,7 +43,6 @@ namespace MealPlanner.Controllers
                 mealsQuery = mealsQuery.Where(m => m.Ingredients.Any(i => i.Name == mealIngredients));
             }
 
-            // Preluăm ingredientele distincte pentru dropdown
             var ingredientsList = await _context.Ingredient
                 .Select(i => i.Name)
                 .Distinct()
@@ -59,7 +56,6 @@ namespace MealPlanner.Controllers
             };
 
             return View(mealIngredientsVM);
-
         }
 
         // GET: Meals/Details/5
@@ -85,19 +81,18 @@ namespace MealPlanner.Controllers
         // GET: Meals/Create
         public IActionResult Create()
         {
+            // Pasăm lista de valori pentru MealType în ViewData pentru dropdown în View
+            ViewData["MealTypeList"] = new SelectList(Enum.GetValues(typeof(MealType)).Cast<MealType>());
             return View();
         }
 
         // POST: Meals/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,AddedDate,IngredientsInput,CookingTime,Rating")] Meal meal)
+        public async Task<IActionResult> Create([Bind("Id,Name,AddedDate,MealType,IngredientsInput,CookingTime,Rating")] Meal meal)
         {
             if (ModelState.IsValid)
             {
-                // Convertim textul introdus în obiecte Ingredient
                 if (!string.IsNullOrWhiteSpace(meal.IngredientsInput))
                 {
                     var ingredientNames = meal.IngredientsInput
@@ -113,10 +108,9 @@ namespace MealPlanner.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
+            ViewData["MealTypeList"] = new SelectList(Enum.GetValues(typeof(MealType)).Cast<MealType>(), meal.MealType);
             return View(meal);
         }
-
-
 
         // GET: Meals/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -129,21 +123,21 @@ namespace MealPlanner.Controllers
             var meal = await _context.Meal
                 .Include(m => m.Ingredients)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (meal == null)
             {
                 return NotFound();
             }
-            meal.IngredientsInput = string.Join(", ", meal.Ingredients.Select(i => i.Name));
-            return View(meal);
 
+            meal.IngredientsInput = string.Join(", ", meal.Ingredients.Select(i => i.Name));
+            ViewData["MealTypeList"] = new SelectList(Enum.GetValues(typeof(MealType)).Cast<MealType>(), meal.MealType);
+            return View(meal);
         }
 
         // POST: Meals/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,AddedDate,IngredientsInput,CookingTime,Rating")] Meal meal)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,AddedDate,MealType,IngredientsInput,CookingTime,Rating")] Meal meal)
         {
             if (id != meal.Id)
             {
@@ -154,7 +148,6 @@ namespace MealPlanner.Controllers
             {
                 try
                 {
-                    
                     var mealToUpdate = await _context.Meal
                         .Include(m => m.Ingredients)
                         .FirstOrDefaultAsync(m => m.Id == id);
@@ -162,13 +155,12 @@ namespace MealPlanner.Controllers
                     if (mealToUpdate == null)
                         return NotFound();
 
-                    
                     mealToUpdate.Name = meal.Name;
                     mealToUpdate.AddedDate = meal.AddedDate;
+                    mealToUpdate.MealType = meal.MealType;
                     mealToUpdate.CookingTime = meal.CookingTime;
                     mealToUpdate.Rating = meal.Rating;
 
-                    
                     _context.Ingredient.RemoveRange(mealToUpdate.Ingredients);
 
                     if (!string.IsNullOrWhiteSpace(meal.IngredientsInput))
@@ -195,9 +187,9 @@ namespace MealPlanner.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
+            ViewData["MealTypeList"] = new SelectList(Enum.GetValues(typeof(MealType)).Cast<MealType>(), meal.MealType);
             return View(meal);
         }
-
 
         // GET: Meals/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -210,7 +202,7 @@ namespace MealPlanner.Controllers
             var meal = await _context.Meal
                 .Include(m => m.Ingredients)
                 .FirstOrDefaultAsync(m => m.Id == id);
-               
+
             if (meal == null)
             {
                 return NotFound();

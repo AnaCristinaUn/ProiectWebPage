@@ -35,7 +35,8 @@
             <th>
                 @Html.DisplayNameFor(model => model.Meals![0].AddedDate)
             </th>
-            <th>Ingredients</th>
+            <th>Meal Type</th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Meals![0].CookingTime)
             </th>
@@ -54,16 +55,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.AddedDate)
             </td>
-                <td>
-                    @if (item.Ingredients != null && item.Ingredients.Any())
-                    {
-                        @string.Join(", ", item.Ingredients.Select(i => i.Name))
-                    }
-                    else
-                    {
-                        <em>No ingredients</em>
-                    }
-                </td>
+            <td>
+                @item.MealType
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CookingTime)
             </td>

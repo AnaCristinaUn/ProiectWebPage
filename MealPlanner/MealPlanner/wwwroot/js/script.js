@@ -12,7 +12,20 @@ const months = [
   'July', 'August', 'September', 'October', 'November', 'December'
 ];
 
+function handleDateSelection(dayElement, day, month, year){
+  document.querySelectorAll('.calendar-dates div').forEach(date =>{
+    date.classList.remove('current-date', 'selected-date');
+  });
+
+  dayElement.classList.add('selected-date');
+
+  const selectedDate = new Date(year, month, day);
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('current-date').textContent = selectedDate.toLocaleDateString('en-US', options);
+}
+
 function renderCalendar(month, year) {
+  const calendarDates = document.querySelector('.calendar-dates');
     calendarDates.innerHTML = '';
     monthYear.textContent = `${months[month]} ${year}`;
   
@@ -33,14 +46,17 @@ function renderCalendar(month, year) {
   
     // Populate the days
     for (let i = 1; i <= daysInMonth; i++) {
-      const day = document.createElement('div');
-      day.textContent = i;
-      calendarDates.appendChild(day);
+      const dayElement = document.createElement('div');
+      dayElement.textContent = i;
+      calendarDates.appendChild(dayElement);
 
       // Highlight today's date
       if (i === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
-        day.classList.add('current-date');
+        dayElement.classList.add('current-date');
     }
+     dayElement.addEventListener('click', () => {
+      handleDateSelection(dayElement, i, month, year);
+  });
     }
   }
   renderCalendar(currentMonth, currentYear);

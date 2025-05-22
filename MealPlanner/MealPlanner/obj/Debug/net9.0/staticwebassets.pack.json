@@ -61,10 +61,6 @@
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

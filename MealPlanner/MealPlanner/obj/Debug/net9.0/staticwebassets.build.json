@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r9j9dYWSqi33o1dJoje6UsiSEXm9amdswbBYTCr/bPY=",
+  "Hash": "3GTEpMYd21VkNCaMXPPuUKAjlZE5XYTFd6VvqS0pvnc=",
   "Source": "MealPlanner",
   "BasePath": "_content/MealPlanner",
   "Mode": "Default",
@@ -500,12 +500,12 @@
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-gkxc8whd7e.gz",
+      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-uo09ba0cuh.gz",
       "SourceId": "MealPlanner",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MealPlanner",
-      "RelativePath": "js/script#[.{fingerprint=gkxc8whd7e}]?.js.gz",
+      "RelativePath": "js/script#[.{fingerprint=uo09ba0cuh}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -514,8 +514,8 @@
       "RelatedAsset": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dzb2tpgmfc",
-      "Integrity": "KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg=",
+      "Fingerprint": "r2tzeqp5rq",
+      "Integrity": "88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\script.js"
@@ -689,12 +689,12 @@
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-enjt7wfdn5.gz",
+      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-elsvfc2vy1.gz",
       "SourceId": "MealPlanner",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MealPlanner",
-      "RelativePath": "css/edit_styles#[.{fingerprint=enjt7wfdn5}]?.css.gz",
+      "RelativePath": "css/edit_styles#[.{fingerprint=elsvfc2vy1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -703,8 +703,8 @@
       "RelatedAsset": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\edit_styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "29cmirr56u",
-      "Integrity": "eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s=",
+      "Fingerprint": "eev1dw1ihz",
+      "Integrity": "NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\edit_styles.css"
@@ -1130,27 +1130,6 @@
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\j88uhbgb1f-xtxxf3hu2r.gz",
-      "SourceId": "MealPlanner",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/MealPlanner",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "fpxp8wntf7",
-      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js"
-    },
-    {
       "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\jaqn3gc5jq-87fc7y1x7t.gz",
       "SourceId": "MealPlanner",
       "SourceType": "Discovered",
@@ -1256,12 +1235,12 @@
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-wumnoecx73.gz",
+      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-v2uculk6aw.gz",
       "SourceId": "MealPlanner",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MealPlanner",
-      "RelativePath": "css/delete_styles#[.{fingerprint=wumnoecx73}]?.css.gz",
+      "RelativePath": "css/delete_styles#[.{fingerprint=v2uculk6aw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1270,8 +1249,8 @@
       "RelatedAsset": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\delete_styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "y6wdz19jqr",
-      "Integrity": "xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0=",
+      "Fingerprint": "avqn0avrnk",
+      "Integrity": "OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\delete_styles.css"
@@ -1732,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wumnoecx73",
-      "Integrity": "eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA=",
+      "Fingerprint": "v2uculk6aw",
+      "Integrity": "ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\delete_styles.css"
@@ -1774,8 +1753,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "enjt7wfdn5",
-      "Integrity": "RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ=",
+      "Fingerprint": "elsvfc2vy1",
+      "Integrity": "fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\edit_styles.css"
@@ -1942,32 +1921,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gkxc8whd7e",
-      "Integrity": "8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y=",
+      "Fingerprint": "uo09ba0cuh",
+      "Integrity": "vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
-    },
-    {
-      "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js",
-      "SourceId": "MealPlanner",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\",
-      "BasePath": "_content/MealPlanner",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -4127,12 +4085,12 @@
     },
     {
       "Route": "css/delete_styles.css",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-wumnoecx73.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-v2uculk6aw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001187648456"
+          "Quality": "0.001226993865"
         }
       ],
       "ResponseHeaders": [
@@ -4142,15 +4100,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "841"
+          "Value": "814"
         },
         {
           "Name": "ETag",
-          "Value": "\"xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0=\""
+          "Value": "\"OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4170,13 +4128,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA=\""
+          "Value": "W/\"ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA="
+          "Value": "sha256-ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA="
         }
       ]
     },
@@ -4191,7 +4149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2573"
+          "Value": "2576"
         },
         {
           "Name": "Content-Type",
@@ -4199,11 +4157,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA=\""
+          "Value": "\"ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4213,13 +4171,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA="
+          "Value": "sha256-ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA="
         }
       ]
     },
     {
       "Route": "css/delete_styles.css.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-wumnoecx73.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-v2uculk6aw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4228,7 +4186,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "841"
+          "Value": "814"
         },
         {
           "Name": "Content-Type",
@@ -4236,11 +4194,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0=\""
+          "Value": "\"OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4258,18 +4216,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0="
+          "Value": "sha256-OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA="
         }
       ]
     },
     {
-      "Route": "css/delete_styles.wumnoecx73.css",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-wumnoecx73.gz",
+      "Route": "css/delete_styles.v2uculk6aw.css",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-v2uculk6aw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001187648456"
+          "Quality": "0.001226993865"
         }
       ],
       "ResponseHeaders": [
@@ -4279,15 +4237,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "841"
+          "Value": "814"
         },
         {
           "Name": "ETag",
-          "Value": "\"xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0=\""
+          "Value": "\"OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4307,13 +4265,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA=\""
+          "Value": "W/\"ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wumnoecx73"
+          "Value": "v2uculk6aw"
         },
         {
           "Name": "label",
@@ -4321,12 +4279,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA="
+          "Value": "sha256-ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA="
         }
       ]
     },
     {
-      "Route": "css/delete_styles.wumnoecx73.css",
+      "Route": "css/delete_styles.v2uculk6aw.css",
       "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\delete_styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4336,7 +4294,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2573"
+          "Value": "2576"
         },
         {
           "Name": "Content-Type",
@@ -4344,11 +4302,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA=\""
+          "Value": "\"ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4358,7 +4316,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wumnoecx73"
+          "Value": "v2uculk6aw"
         },
         {
           "Name": "label",
@@ -4366,13 +4324,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eOOKZ8CqPmRgEcmk3SuatwzxlrxVpBTHrDJEJ5er8QA="
+          "Value": "sha256-ucrpoE4rXmWDYterhKVs+5o0ES4ETl9+dJ5VGBqHUQA="
         }
       ]
     },
     {
-      "Route": "css/delete_styles.wumnoecx73.css.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-wumnoecx73.gz",
+      "Route": "css/delete_styles.v2uculk6aw.css.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\nszqcmz9jt-v2uculk6aw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4381,7 +4339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "841"
+          "Value": "814"
         },
         {
           "Name": "Content-Type",
@@ -4389,11 +4347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0=\""
+          "Value": "\"OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:20:09 GMT"
+          "Value": "Thu, 22 May 2025 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4411,7 +4369,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wumnoecx73"
+          "Value": "v2uculk6aw"
         },
         {
           "Name": "label",
@@ -4419,7 +4377,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xiSOV8N/dpu+xCDeW2qcRfEOIvZrRbMaPmoMx+m5nm0="
+          "Value": "sha256-OgDqphMI6n3CD7oNRxlq+NjVfVBGaip7OCy6FyPJzTA="
         }
       ]
     },
@@ -4723,12 +4681,12 @@
     },
     {
       "Route": "css/edit_styles.css",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-enjt7wfdn5.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-elsvfc2vy1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001312335958"
+          "Quality": "0.001315789474"
         }
       ],
       "ResponseHeaders": [
@@ -4738,15 +4696,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761"
+          "Value": "759"
         },
         {
           "Name": "ETag",
-          "Value": "\"eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s=\""
+          "Value": "\"NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4766,13 +4724,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ=\""
+          "Value": "W/\"fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ="
+          "Value": "sha256-fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM="
         }
       ]
     },
@@ -4787,7 +4745,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2070"
+          "Value": "2069"
         },
         {
           "Name": "Content-Type",
@@ -4795,11 +4753,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ=\""
+          "Value": "\"fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4809,13 +4767,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ="
+          "Value": "sha256-fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM="
         }
       ]
     },
     {
       "Route": "css/edit_styles.css.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-enjt7wfdn5.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-elsvfc2vy1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4824,7 +4782,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761"
+          "Value": "759"
         },
         {
           "Name": "Content-Type",
@@ -4832,11 +4790,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s=\""
+          "Value": "\"NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4854,18 +4812,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s="
+          "Value": "sha256-NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A="
         }
       ]
     },
     {
-      "Route": "css/edit_styles.enjt7wfdn5.css",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-enjt7wfdn5.gz",
+      "Route": "css/edit_styles.elsvfc2vy1.css",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-elsvfc2vy1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001312335958"
+          "Quality": "0.001315789474"
         }
       ],
       "ResponseHeaders": [
@@ -4875,15 +4833,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761"
+          "Value": "759"
         },
         {
           "Name": "ETag",
-          "Value": "\"eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s=\""
+          "Value": "\"NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4903,13 +4861,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ=\""
+          "Value": "W/\"fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "enjt7wfdn5"
+          "Value": "elsvfc2vy1"
         },
         {
           "Name": "label",
@@ -4917,12 +4875,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ="
+          "Value": "sha256-fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM="
         }
       ]
     },
     {
-      "Route": "css/edit_styles.enjt7wfdn5.css",
+      "Route": "css/edit_styles.elsvfc2vy1.css",
       "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\css\\edit_styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4932,7 +4890,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2070"
+          "Value": "2069"
         },
         {
           "Name": "Content-Type",
@@ -4940,11 +4898,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ=\""
+          "Value": "\"fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4954,7 +4912,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "enjt7wfdn5"
+          "Value": "elsvfc2vy1"
         },
         {
           "Name": "label",
@@ -4962,13 +4920,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RuDc7kmvDETRNCPnbMbYI6xMMmkJ8gHWVUWlIrNw0GQ="
+          "Value": "sha256-fl6rUOr0hNj695nauUlNySIenOBTfi1A94rwMqOctlM="
         }
       ]
     },
     {
-      "Route": "css/edit_styles.enjt7wfdn5.css.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-enjt7wfdn5.gz",
+      "Route": "css/edit_styles.elsvfc2vy1.css.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\babtblzbjx-elsvfc2vy1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4977,7 +4935,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761"
+          "Value": "759"
         },
         {
           "Name": "Content-Type",
@@ -4985,11 +4943,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s=\""
+          "Value": "\"NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:32:10 GMT"
+          "Value": "Thu, 22 May 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5007,7 +4965,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "enjt7wfdn5"
+          "Value": "elsvfc2vy1"
         },
         {
           "Name": "label",
@@ -5015,7 +4973,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eor3899G/9Gd1hlnKIlUZ2YpDVQKZXxE/9k2OINiE4s="
+          "Value": "sha256-NpI/mRNU+/pEeTG/GqVStQLY2lXtMPdX19a0QJzXM9A="
         }
       ]
     },
@@ -7106,13 +7064,13 @@
       ]
     },
     {
-      "Route": "js/script.gkxc8whd7e.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-gkxc8whd7e.gz",
+      "Route": "js/script.js",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-uo09ba0cuh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001246882793"
+          "Quality": "0.001079913607"
         }
       ],
       "ResponseHeaders": [
@@ -7122,19 +7080,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "801"
+          "Value": "925"
         },
         {
           "Name": "ETag",
-          "Value": "\"KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg=\""
+          "Value": "\"88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -7150,26 +7108,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y=\""
+          "Value": "W/\"vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "gkxc8whd7e"
-        },
-        {
-          "Name": "label",
-          "Value": "js/script.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y="
+          "Value": "sha256-vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus="
         }
       ]
     },
     {
-      "Route": "js/script.gkxc8whd7e.js",
+      "Route": "js/script.js",
       "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7179,7 +7129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2281"
+          "Value": "2994"
         },
         {
           "Name": "Content-Type",
@@ -7187,11 +7137,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y=\""
+          "Value": "\"vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-uo09ba0cuh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.uo09ba0cuh.js",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-uo09ba0cuh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001079913607"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "925"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uo09ba0cuh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.uo09ba0cuh.js",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7201,7 +7296,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gkxc8whd7e"
+          "Value": "uo09ba0cuh"
         },
         {
           "Name": "label",
@@ -7209,13 +7304,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y="
+          "Value": "sha256-vr7nOsegpNxAwrUkTtzuFLjllV50g2+Baf7HxNkHLus="
         }
       ]
     },
     {
-      "Route": "js/script.gkxc8whd7e.js.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-gkxc8whd7e.gz",
+      "Route": "js/script.uo09ba0cuh.js.gz",
+      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-uo09ba0cuh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7224,7 +7319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "801"
+          "Value": "925"
         },
         {
           "Name": "Content-Type",
@@ -7232,11 +7327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg=\""
+          "Value": "\"88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
+          "Value": "Thu, 22 May 2025 15:13:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7254,7 +7349,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gkxc8whd7e"
+          "Value": "uo09ba0cuh"
         },
         {
           "Name": "label",
@@ -7262,442 +7357,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-gkxc8whd7e.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001246882793"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8AyjVGkj0kwqpKu4t/mgkW1rclA/TFMrNoKMJHzuO2Y="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.js.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\9bl7jtrq3e-gkxc8whd7e.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 08:26:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KWqMGbmVL6U9mVrDzDUpBDl8X1q1/9u6XhmzLGD6fJg="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\j88uhbgb1f-xtxxf3hu2r.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005235602094"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\j88uhbgb1f-xtxxf3hu2r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\j88uhbgb1f-xtxxf3hu2r.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005235602094"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "D:\\Cursuri\\A III S II\\IPDP\\ProiectWebPage\\MealPlanner\\MealPlanner\\obj\\Debug\\net9.0\\compressed\\j88uhbgb1f-xtxxf3hu2r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:15:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-88MHjhgKJWpP+Vlvje4gw3qKwlJsKUIfXxTifph/lTg="
         }
       ]
     },
