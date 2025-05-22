@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MealPlanner.Data;
 using MealPlanner.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace MealPlanner.Controllers
 {
+    
     public class MealsController : Controller
     {
         private readonly MealPlannerContext _context;
@@ -28,30 +31,35 @@ namespace MealPlanner.Controllers
             }
 
             // Use LINQ to get list of genres.
-            IQueryable<string> ingredientsQuery = from m in _context.Meal
-                                                  orderby m.Ingredients
-                                                  select m.Ingredients;
-
-            var meals = from m in _context.Meal
-                       select m;
+            var mealsQuery = _context.Meal
+                .Include(m => m.Ingredients)
+                .AsQueryable();
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                meals = meals.Where(s => s.Name!.ToUpper().Contains(searchString.ToUpper()));
+                mealsQuery = mealsQuery.Where(m => m.Name!.ToUpper().Contains(searchString.ToUpper()));
             }
 
             if (!string.IsNullOrEmpty(mealIngredients))
             {
-                meals = meals.Where(x => x.Ingredients == mealIngredients);
+                mealsQuery = mealsQuery.Where(m => m.Ingredients.Any(i => i.Name == mealIngredients));
             }
+
+            // Preluăm ingredientele distincte pentru dropdown
+            var ingredientsList = await _context.Ingredient
+                .Select(i => i.Name)
+                .Distinct()
+                .OrderBy(n => n)
+                .ToListAsync();
 
             var mealIngredientsVM = new MealIngredientsViewModel
             {
-                Ingredients = new SelectList(await ingredientsQuery.Distinct().ToListAsync()),
-                Meals = await meals.ToListAsync()
+                Ingredients = new SelectList(ingredientsList),
+                Meals = await mealsQuery.ToListAsync()
             };
 
             return View(mealIngredientsVM);
+
         }
 
         // GET: Meals/Details/5
@@ -63,7 +71,9 @@ namespace MealPlanner.Controllers
             }
 
             var meal = await _context.Meal
+                .Include(m => m.Ingredients)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (meal == null)
             {
                 return NotFound();
@@ -102,7 +112,9 @@ namespace MealPlanner.Controllers
                 return NotFound();
             }
 
-            var meal = await _context.Meal.FindAsync(id);
+            var meal = await _context.Meal
+                .Include(m => m.Ingredients)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (meal == null)
             {
                 return NotFound();
@@ -154,7 +166,9 @@ namespace MealPlanner.Controllers
             }
 
             var meal = await _context.Meal
+                .Include(m => m.Ingredients)
                 .FirstOrDefaultAsync(m => m.Id == id);
+               
             if (meal == null)
             {
                 return NotFound();

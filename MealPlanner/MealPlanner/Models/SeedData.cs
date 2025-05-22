@@ -24,7 +24,11 @@ public static class SeedData
                 {
                     Name = "Meal3",
                     AddedDate = DateTime.Parse("1989-2-12"),
-                    Ingredients = "ingredients3",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient { Name = "Salt" },
+                        new Ingredient { Name = "Pepper" }
+                    },
                     CookingTime = 15,
                     Rating = 2
                 },
@@ -32,7 +36,11 @@ public static class SeedData
                 {
                     Name = "Meal4 ",
                     AddedDate = DateTime.Parse("1984-3-13"),
-                    Ingredients = "ingredients4",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient { Name = "Salt" },
+                        new Ingredient { Name = "Tomato" }
+                    },
                     CookingTime = 35,
                     Rating = 4
                 },
@@ -40,7 +48,11 @@ public static class SeedData
                 {
                     Name = "Meal5",
                     AddedDate = DateTime.Parse("1986-2-23"),
-                    Ingredients = "ingredients5",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient { Name = "Potato" },
+                        new Ingredient { Name = "Pepper" }
+                    },
                     CookingTime = 20,
                     Rating = 4.5
                 },
@@ -48,7 +60,11 @@ public static class SeedData
                 {
                     Name = "Meal6",
                     AddedDate = DateTime.Parse("1959-4-15"),
-                    Ingredients = "ingredients6",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient { Name = "Carrot" },
+                        new Ingredient { Name = "Onion" }
+                    },
                     CookingTime = 10,
                     Rating = 3.5
                 }

@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Create Account";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/create_account_styles.css" />
+</head>
+<body>
+
+    <div class="form-container">
+        <div class="logo">
+            <i class="fas fa-user-plus"></i>
+        </div>
+        <h2>Create Your Account</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <div style="color: red; margin-bottom: 10px; text-align: center;">
+                @ViewBag.Error
+            </div>
+        }
+
+        @using (Html.BeginForm("CreateAccount", "Account", FormMethod.Post, new { id = "createAccountForm" }))
+        {
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="FirstName" placeholder="First Name" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="LastName" placeholder="Last Name" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="Email" id="Email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="Password" id="password" placeholder="Password" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-calendar"></i>
+                <input type="number" name="Age" placeholder="Age" min="0" />
+            </div>
+            <button type="submit" href="/Account/Login">Sign Up</button>
+            <p class="login-link">Already have an account? <a href="@Url.Action("Login", "Account")">Log in</a></p>
+        }
+
+    </div>
+
+    <script>
+        document.getElementById('createAccountForm').addEventListener('submit', function (e) {
+            const email = document.getElementById('Email').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (email === '' || password === '') {
+                e.preventDefault();
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            
+        });
+    </script>
+
+</body>
+</html>

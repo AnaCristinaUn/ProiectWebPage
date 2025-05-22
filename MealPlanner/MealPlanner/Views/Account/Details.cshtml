@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Account Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="@Url.Content("~/css/account_details_styles.css")" asp-append-version="true" />
+
+<div class="container">
+    <h2 class="main-title">Account Details</h2>
+
+    <div class="details-group">
+        <p><strong>Full Name:</strong> @Model.FullName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Age:</strong> @Model.Age</p>
+        
+    </div>
+
+    <a asp-controller="Account" asp-action="Edit" class="edit-link">Edit Account</a>
+</div>
+

@@ -2,52 +2,65 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<link rel="stylesheet" href="~/css/create_styles.css" />
 
-<h4>Meal</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+<div class="container">
+    <div class="content">
+        <h1 class="main-title">Create Meal</h1>
+        <p class="tagline">Add a delicious meal</p>
+        <div class="description">
+            Fill in the form below to add a new meal to your planner.
+        </div>
+
+        <form asp-action="Create" class="styled-form">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <label asp-for="Name" class="form-label">Meal Name</label>
+                <input asp-for="Name" class="form-input" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="AddedDate" class="control-label"></label>
-                <input asp-for="AddedDate" class="form-control" />
+                <label asp-for="AddedDate" class="form-label">Date Added</label>
+                <input asp-for="AddedDate" class="form-input" />
                 <span asp-validation-for="AddedDate" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Ingredients" class="control-label"></label>
-                <input asp-for="Ingredients" class="form-control" />
+                <label asp-for="Ingredients" class="form-label">Ingredients</label>
+                <input asp-for="Ingredients" class="form-input" />
                 <span asp-validation-for="Ingredients" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="CookingTime" class="control-label"></label>
-                <input asp-for="CookingTime" class="form-control" />
+                <label asp-for="CookingTime" class="form-label">Cooking Time (mins)</label>
+                <input asp-for="CookingTime" class="form-input" />
                 <span asp-validation-for="CookingTime" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Rating" class="control-label"></label>
-                <input asp-for="Rating" class="form-control" />
+                <label asp-for="Rating" class="form-label">Rating</label>
+                <input asp-for="Rating" class="form-input" />
                 <span asp-validation-for="Rating" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="button-container">
+                <button type="submit" class="cta-button">Create</button>
             </div>
         </form>
+
+        <div class="button-container" style="margin-top: 1rem;">
+            <a asp-action="Index" class="cta-button" style="background-color: transparent; border-style: solid;">Back to List</a>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

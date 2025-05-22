@@ -1,56 +1,90 @@
 body {
-    background-color: #fff;
+    background: linear-gradient(to right, #f0f4f8, #d9e2ec);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .form-container {
-    background-color: #00AB44;
-    border-radius: 10px;
-    width: 400px;
-    height: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 360px;
+    padding: 35px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 20px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
     margin-bottom: 25px;
-    font-family: 'Arial Black', sans-serif;
     font-size: 24px;
-    color: black;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 80%;
+    color: #1f2937;
+}
+
+form {
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f1f5f9;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+}
+
+    .input-group i {
+        color: #6b7280;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .input-group input {
+        border: none;
+        outline: none;
+        background: transparent;
+        flex: 1;
+        font-size: 15px;
+        color: #111827;
+    }
+
+button {
+    width: 100%;
     padding: 12px;
-    margin-bottom: 15px;
+    background-color: #00AB44;
+    color: #ffffff;
     border: none;
-    border-radius: 8px;
-    font-size: 14px;
-  }
-  
-  button {
-    width: 80%;
-    padding: 12px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #333;
-  }
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover {
+        background-color: #008f3a;
+        transform: translateY(-1px);
+    }
+
+.create-link {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #374151;
+    text-align: center;
+}
+
+    .create-link a {
+        color: #00AB44;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .create-link a:hover {
+            text-decoration: underline;
+        }
