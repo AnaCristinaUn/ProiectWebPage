@@ -8,5 +8,6 @@ public class MealIngredientsViewModel
     public SelectList? Ingredients { get; set; }
     public string? MealIngredients { get; set; }
     public string? SearchString { get; set; }
+
 }
 

@@ -31,10 +31,11 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="Ingredients" class="form-label">Ingredients</label>
-                <input asp-for="Ingredients" class="form-input" />
-                <span asp-validation-for="Ingredients" class="text-danger"></span>
+                <label asp-for="IngredientsInput" class="form-label">Ingredients (comma-separated)</label>
+                <input asp-for="IngredientsInput" class="form-input" />
+                <span asp-validation-for="IngredientsInput" class="text-danger"></span>
             </div>
+
 
             <div class="form-group">
                 <label asp-for="CookingTime" class="form-label">Cooking Time (mins)</label>

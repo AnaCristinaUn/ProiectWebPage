@@ -25,4 +25,7 @@ public class Meal
 
     public List<Ingredient> Ingredients { get; set; } = new();
 
+    [NotMapped]
+    public string IngredientsInput { get; set; } = "";
+
 }
