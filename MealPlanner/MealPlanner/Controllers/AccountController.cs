@@ -4,7 +4,6 @@ using MealPlanner.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 
-
 public class AccountController : Controller
 {
     private readonly MealPlannerContext _context;
@@ -33,9 +32,8 @@ public class AccountController : Controller
         var user = _context.User.FirstOrDefault(u => u.Email == Email);
         if (user != null)
         {
-            if (user.Password == Password) // compari direct parola
+            if (user.Password == Password)
             {
-                // Autentificare reușită
                 HttpContext.Session.SetInt32("UserId", user.Id);
                 int? userId = HttpContext.Session.GetInt32("UserId");
                 return RedirectToAction("Dashboard", "Home");
@@ -76,7 +74,7 @@ public class AccountController : Controller
             FirstName = FirstName,
             LastName = LastName,
             Email = Email,
-            Password = Password, // parola stocată în clar
+            Password = Password,
             Age = Age
         };
 
@@ -93,18 +91,15 @@ public class AccountController : Controller
 
         if (!userId.HasValue)
         {
-            // Nu e logat, redirecționează la Login
             return RedirectToAction("Login");
         }
 
         var user = _context.User.FirstOrDefault(u => u.Id == userId.Value);
         if (user == null)
         {
-            // User inexistent
             return RedirectToAction("Login");
         }
 
-        // Construiește un model pentru view (poți folosi chiar User)
         var model = new
         {
             

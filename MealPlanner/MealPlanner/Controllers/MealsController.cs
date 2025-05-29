@@ -81,7 +81,6 @@ namespace MealPlanner.Controllers
         // GET: Meals/Create
         public IActionResult Create()
         {
-            // Pasăm lista de valori pentru MealType în ViewData pentru dropdown în View
             ViewData["MealTypeList"] = new SelectList(Enum.GetValues(typeof(MealType)).Cast<MealType>());
             return View();
         }

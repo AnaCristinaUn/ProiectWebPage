@@ -11,8 +11,8 @@ public class Ingredient
     [StringLength(100)]
     public string Name { get; set; } = null!;
 
-    // Legătura către Meal
     public int MealId { get; set; }
+
     [ForeignKey("MealId")]
     public Meal Meal { get; set; } = null!;
 }

@@ -6,7 +6,7 @@ body {
     color: #333;
   }
   
-  .header {
+.header {
 	background-color: #00AB44;
 	padding: 1rem 2rem;
 	display: flex;
@@ -46,119 +46,119 @@ body {
 }
   
   
-  /* --- SEARCH --- */
-  .search-container {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-  }
+/* Search */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
   
-  .search-box {
-    position: relative;
-    width: 400px;
-  }
+.search-box {
+  position: relative;
+  width: 400px;
+}
   
-  .search-box input {
-    width: 100%;
-    padding: 12px 40px 12px 16px;
-    border: 2px solid #ffa94d;
-    border-radius: 10px;
-    font-size: 16px;
-    outline: none;
-  }
+.search-box input {
+  width: 100%;
+  padding: 12px 40px 12px 16px;
+  border: 2px solid #ffa94d;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
   
-  .search-box::after {
-    content: '🔍';
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.search-box::after {
+  content: '🔍';
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
   
-  /* --- MAIN SECTION --- */
-  .section {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
-  }
+/* Main Section*/
+.section {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
   
-  .card {
-    background-color: #faae6b;
-    padding: 24px;
-    border-radius: 18px;
-    width: 400px;
-    min-height: 300px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  }
+.card {
+  background-color: #faae6b;
+  padding: 24px;
+  border-radius: 18px;
+  width: 400px;
+  min-height: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
   
-  .card h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
   
-  .recipe-box {
-    background-color: white;
-    padding: 16px;
-    border-radius: 12px;
-    font-size: 15px;
-  }
+.recipe-box {
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 15px;
+}
   
-  .recipe-box img {
-    max-width: 100%;
-    border-radius: 12px;
-    margin-bottom: 10px;
-  }
+.recipe-box img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
   
-  .recipe-box button {
-    background-color: #ff8d3f;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 8px 16px;
-    font-size: 14px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
+.recipe-box button {
+  background-color: #ff8d3f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
   
-  .recipe-box button:hover {
-    background-color: #e57426;
-  }
+.recipe-box button:hover {
+  background-color: #e57426;
+}
   
-  /* --- FAVORITES LIST --- */
-  #favoritesList {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
+/* Favorites List */
+#favoritesList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
   
-  #favoritesList li {
-    background-color: white;
-    margin: 8px auto;
-    padding: 10px 16px;
-    border-radius: 10px;
-    width: fit-content;
-    max-width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-  }
+#favoritesList li {
+  background-color: white;
+  margin: 8px auto;
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
   
-  #favoritesList span {
-    flex-grow: 1;
-    cursor: pointer;
-  }
+#favoritesList span {
+  flex-grow: 1;
+  cursor: pointer;
+}
   
-  #favoritesList button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
+#favoritesList button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
   
-  #favoritesList button:hover {
-    color: red;
-  }
+#favoritesList button:hover {
+  color: red;
+}
   

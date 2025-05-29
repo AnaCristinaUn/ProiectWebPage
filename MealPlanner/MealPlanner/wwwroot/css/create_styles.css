@@ -33,16 +33,16 @@ html, body {
     font-family: serif;
 }
 
-    .main-title::after {
-        content: "";
-        position: absolute;
-        width: 110%;
-        height: 25px;
-        background-color: #00AB44;
-        top: 40px;
-        left: -10px;
-        z-index: -1;
-    }
+.main-title::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 25px;
+    background-color: #00AB44;
+    top: 40px;
+    left: -10px;
+    z-index: -1;
+}
 
 .tagline {
     text-align: center;
@@ -115,9 +115,9 @@ html, body {
     transition: background-color 0.3s ease;
 }
 
-    .cta-button:hover {
-        background-color: #ffc199;
-    }
+.cta-button:hover {
+    background-color: #ffc199;
+}
 
 /* Responsive */
 @media (max-width: 768px) {

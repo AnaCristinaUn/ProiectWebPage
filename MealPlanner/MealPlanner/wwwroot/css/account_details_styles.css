@@ -33,16 +33,16 @@ html, body {
     font-family: serif;
 }
 
-    .main-title::after {
-        content: "";
-        position: absolute;
-        width: 110%;
-        height: 25px;
-        background-color: #FF8D3F;
-        top: 40px;
-        left: -10px;
-        z-index: -1;
-    }
+.main-title::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 25px;
+    background-color: #FF8D3F;
+    top: 40px;
+    left: -10px;
+    z-index: -1;
+}
 
 /* Details */
 .details-group {
@@ -55,15 +55,14 @@ html, body {
     text-align: center;
 }
 
+.details-group p {
+    margin: 0;
+}
 
-    .details-group p {
-        margin: 0;
-    }
-
-    .details-group strong {
-        font-weight: bold;
-        color: #444;
-    }
+.details-group strong {
+    font-weight: bold;
+    color: #444;
+}
 
 /* Link/Button */
 .edit-link {
@@ -82,10 +81,10 @@ html, body {
     margin-top: 1.5rem;
 }
 
-    .edit-link:hover {
-        background-color: #FF8D3F;
-        color: #fff;
-    }
+.edit-link:hover {
+    background-color: #FF8D3F;
+    color: #fff;
+}
 
 /* Responsive */
 @media (max-width: 768px) {

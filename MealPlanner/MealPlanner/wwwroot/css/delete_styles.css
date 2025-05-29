@@ -33,16 +33,16 @@ html, body {
     font-family: serif;
 }
 
-    .main-title::after {
-        content: "";
-        position: absolute;
-        width: 110%;
-        height: 25px;
-        background-color: #00AB44;
-        top: 40px;
-        left: -10px;
-        z-index: -1;
-    }
+.main-title::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 25px;
+    background-color: #00AB44;
+    top: 40px;
+    left: -10px;
+    z-index: -1;
+}
 
 .tagline {
     text-align: center;
@@ -69,15 +69,15 @@ html, body {
     font-family: sans-serif;
 }
 
-    .dl-row dt {
-        font-weight: bold;
-        color: #444;
-    }
+.dl-row dt {
+    font-weight: bold;
+    color: #444;
+}
 
-    .dl-row dd {
-        margin: 0;
-        color: #000;
-    }
+.dl-row dd {
+    margin: 0;
+    color: #000;
+}
 
 /* Buttons */
 form {
@@ -101,13 +101,11 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-    input[type="submit"]:hover {
-        background-color: #ffc199;
-    }
+input[type="submit"]:hover {
+    background-color: #ffc199;
+}
 
-
-
-.cta-button {
+cta-button {
     background-color: #FFAA77;
     border: 2px dashed #FF8D3F;
     border-radius: 30px;
@@ -122,9 +120,30 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-    .cta-button:hover {
-        background-color: #ffc199;
-    }
+.cta-button:hover {
+    background-color: #ffc199;
+}
+
+.cta-button-transparent {
+    background-color: #FFAA77;
+    border: 2px dashed #FF8D3F;
+    border-radius: 30px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button-transparent:hover {
+    background-color: #ffc199;
+}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {

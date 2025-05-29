@@ -39,20 +39,20 @@ form {
     border: 1px solid #d1d5db;
 }
 
-    .input-group i {
-        color: #6b7280;
-        font-size: 15px;
-        margin-right: 10px;
-    }
+.input-group i {
+    color: #6b7280;
+    font-size: 15px;
+    margin-right: 10px;
+}
 
-    .input-group input {
-        border: none;
-        outline: none;
-        background: transparent;
-        flex: 1;
-        font-size: 15px;
-        color: #111827;
-    }
+.input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 15px;
+    color: #111827;
+}
 
 button {
     width: 100%;
@@ -67,10 +67,10 @@ button {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-    button:hover {
-        background-color: #008f3a;
-        transform: translateY(-1px);
-    }
+button:hover {
+    background-color: #008f3a;
+    transform: translateY(-1px);
+}
 
 .create-link {
     margin-top: 18px;
@@ -79,12 +79,12 @@ button {
     text-align: center;
 }
 
-    .create-link a {
-        color: #00AB44;
-        text-decoration: none;
-        font-weight: 500;
-    }
+.create-link a {
+    color: #00AB44;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-        .create-link a:hover {
-            text-decoration: underline;
-        }
+.create-link a:hover {
+    text-decoration: underline;
+}

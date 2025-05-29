@@ -20,7 +20,7 @@ namespace MealPlanner.Data
 
             modelBuilder.Entity<Meal>()
                 .Property(m => m.CookingTime)
-                .HasPrecision(5, 2);  // setează precizia decimală
+                .HasPrecision(5, 2);  
         }
     }
 }

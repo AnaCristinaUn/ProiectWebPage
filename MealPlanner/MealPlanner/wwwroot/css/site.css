@@ -27,7 +27,6 @@ html {
   text-align: start;
 }
 
-
 body {
     font-family: serif;
     background-color: #fffaf2;
@@ -84,13 +83,10 @@ body {
     align-items: center;
 }
 
-
-
 a.logo:hover {
     text-decoration: none;
     opacity: 0.9;
 }
-
 
 .nav-links {
     display: flex;
@@ -122,12 +118,12 @@ a.logo:hover {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-    .nav-button:hover {
-        background-color: #FF7A33;
-        color: white;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
+.nav-button:hover {
+    background-color: #FF7A33;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 
 /* Footer */
 .footer {
@@ -175,10 +171,10 @@ a.logo:hover {
     font-family: sans-serif;
 }
 
-    .contact-info a {
-        color: #000;
-        text-decoration: underline;
-    }
+.contact-info a {
+    color: #000;
+    text-decoration: underline;
+}
 
 .social-icons {
     display: flex;

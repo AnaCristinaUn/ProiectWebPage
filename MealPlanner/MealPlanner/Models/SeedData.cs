@@ -14,7 +14,7 @@ public static class SeedData
             serviceProvider.GetRequiredService<
                 DbContextOptions<MealPlannerContext>>()))
         {
-            // Look for any movies.
+            
             if (context.Meal.Any())
             {
                 return;   // DB has been seeded
